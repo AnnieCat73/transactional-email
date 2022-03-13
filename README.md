@@ -34,7 +34,7 @@ A responsive transactional email with media queries
 
 ### Screenshot
 
-![](./images/READMEmdimg.png)
+![](./images/READMEimg.png)
 
 ### Links
 
@@ -49,6 +49,7 @@ A responsive transactional email with media queries
   as everything needed to be displayed in one column.
 - The best way to approach this type of email is by making the container of the email to be a width of 100% once you are in a smaller screen size than the maximum desktop screen size of 510px, i.e less than 479px
 - I used the Desktop-first approach as that's the best practice for email development
+- Made it look as good as possible for dark mode
 - I tested my email using Litmus.
 - I uploaded the email to the web via
 
