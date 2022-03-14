@@ -56,13 +56,12 @@ A responsive transactional email with media queries
 ### Built with
 
 - HTML5 markup with CSS2
-- The HTML document needs the following for the email to work on Outlook on Windows:
-  '<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">',
-- '<meta name="x-apple-disable-message-reformatting"> ' prevents any unwanted scaling or zooming from Apple
-- '<meta http-equiv="X-UA-Compatible" content="IE=edge" />' used for improving rendering in Iternet Explorer 9 or lower
-- XML Tag ensures that Microsoft Outlook transforms everything in our email to adapt to the screen soom percentage in Windows
-- Inline CSS which is best practice for email as some clients strip out the <head> of emails
-- Some media queries within the <style> tag in <head> to make the email responsive
+- An HTML Tag that defines the XML and OOMXML(Office Open XML) which the HTML document needs for the email to work on Outlook on Windows
+- An Apple Scaling Meta Tag that prevents any unwanted scaling or zooming from Apple
+- An IE9 Meta Tage used for improving rendering in Iternet Explorer 9 or lower
+- Ab XML Tag ensures that Microsoft Outlook transforms everything in our email to adapt to the screen soom percentage in Windows
+- Inline CSS which is best practice for email as some clients strip out the head tag in emails
+- Some media queries within the style tag in the head tage to make the email responsive
 - Desktop-first workflow
 
 ### What I learned
