@@ -17,7 +17,7 @@ A responsive transactional email with media queries
 
 - Please note this email uses the responsive approach to make emails responsive
 - This means it uses media queries to achieve this. Media queries are coded within the style tag in the head tag and although most modern email apps support media queries some don't.
-- If viewed in a Gmail app, emails for non-Gmail accounts for example don't support the style tag and hence no media queries.
+- If viewed in a Gmail app, emails for non-Gmail accounts for example, don't support the style tag and hence no media queries.
 - This email will not look responsive if viewed from the Gmail app on Android and Outlook.
 - To build emails that is responsive for all environments, including
   the email apps that do not support modern CSS like media queries I use the fluid hybrid approach to responsive email development.
@@ -28,7 +28,7 @@ A responsive transactional email with media queries
 - Creating a transactional responsive email with media queries.
 - Most email apps support modern CSS and media queries but as mentioned above this email doesn't work on small screens
   viewed on Gmail apps or Outlook.
-- This is a transactional email so I didn't nee to use many media queries.
+- This is a transactional email so I didn't need to use many media queries.
 - The email is being made responsive mainly from setting the container of the email to have a width of 100%. I set this as a media query within the style tag
 
 ### Screenshot
