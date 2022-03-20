@@ -15,6 +15,8 @@
 
 A responsive transactional email with media queries
 
+I have tested the email on 70 plus different devices and email clients. The email works fine in the majority of the email clients.
+
 - Please note this email uses the responsive approach to make emails responsive
 - This means it uses media queries to achieve this. Media queries are coded within the style tag in the head tag and although most modern email apps support media queries some don't.
 - If viewed in a Gmail app, emails for non-Gmail accounts for example, don't support the style tag and hence no media queries.
@@ -49,7 +51,7 @@ A responsive transactional email with media queries
 - The best way to approach this type of email is by making the container of the email to be a width of 100% once you are in a smaller screen size than the maximum desktop screen size of 510px, i.e less than 479px
 - I used the Desktop-first approach as that's the best practice for email development
 - Made it look as good as possible for dark mode
-- I tested my email using Litmus.
+- I tested my email using Email on Acid
 - I uploaded the email to the web via
 
 ### Built with
