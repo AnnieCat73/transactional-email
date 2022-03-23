@@ -17,7 +17,7 @@ A responsive transactional email with media queries
 
 I have tested the email on 70 plus different devices and email clients. The email works fine in the majority of the email clients.
 
-- Please note this email uses the responsive approach to make emails responsive
+- Please note that this email uses the responsive approach to make emails responsive
 - This means it uses media queries to achieve this. Media queries are coded within the style tag in the head tag and although most modern email apps support media queries some don't.
 - If viewed in a Gmail app, emails for non-Gmail accounts for example, don't support the style tag and hence no media queries.
 - This email will not look responsive if viewed from the Gmail app on Android and Outlook.
@@ -31,7 +31,7 @@ I have tested the email on 70 plus different devices and email clients. The emai
 - Most email apps support modern CSS and media queries but as mentioned above this email doesn't work on small screens
   viewed on Gmail apps or Outlook.
 - This is a transactional email so I didn't need to use many media queries.
-- The email is being made responsive mainly from setting the container of the email to have a width of 100%. I set this as a media query within the style tag
+- The email is being made responsive mainly from setting the container of the email to have a width of 100%. I set this as a media query within the style tag.
 
 ### Screenshot
 
@@ -39,7 +39,7 @@ I have tested the email on 70 plus different devices and email clients. The emai
 
 ### Links
 
-- Live Site URL: https://
+- Live Site URL: https://devannie-transactional-email.pages.dev/
 
 ## My process
 
@@ -52,7 +52,7 @@ I have tested the email on 70 plus different devices and email clients. The emai
 - I used the Desktop-first approach as that's the best practice for email development
 - Made it look as good as possible for dark mode
 - I tested my email using Email on Acid
-- I uploaded the email to the web via
+- I uploaded the email to the web via Cloudflare
 
 ### Built with
 
